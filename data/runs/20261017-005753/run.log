@@ -1,0 +1,43 @@
+crypto self-check
+llama already-up
+boot
+PASS E1 链路 temp=14.4 docs=['cmrc-0001'] leaked=False err=
+PASS E1 密文边界 forward_hit=False kb_bytes=971478
+PASS 细粒度授权 rotate=AUTHZ_DENY infer=AUTHZ_DENY audit=AUTHZ_DENY
+PASS 窃听与备份 wire=1724 backup_open=True backup_wrong=True
+PASS 工具实呼 10/10
+PASS M3 篡改 server=6/6 output=True tool=True
+PASS M4 重放 3/3
+warmup 20
+PROGRESS pair 25/1000 ok 25 qualified 25
+PROGRESS pair 50/1000 ok 50 qualified 50
+PROGRESS pair 75/1000 ok 75 qualified 75
+PROGRESS pair 100/1000 ok 100 qualified 100
+PROGRESS pair 125/1000 ok 125 qualified 125
+PROGRESS pair 150/1000 ok 150 qualified 150
+PROGRESS pair 175/1000 ok 175 qualified 174
+PROGRESS pair 200/1000 ok 200 qualified 199
+PROGRESS pair 225/1000 ok 225 qualified 224
+PROGRESS pair 250/1000 ok 250 qualified 249
+PROGRESS pair 275/1000 ok 275 qualified 274
+PROGRESS pair 300/1000 ok 300 qualified 299
+PROGRESS pair 325/1000 ok 325 qualified 323
+PROGRESS pair 350/1000 ok 350 qualified 343
+PROGRESS pair 375/1000 ok 375 qualified 364
+PROGRESS pair 400/1000 ok 400 qualified 385
+PROGRESS pair 425/1000 ok 425 qualified 408
+PROGRESS pair 450/1000 ok 450 qualified 430
+PROGRESS pair 475/1000 ok 475 qualified 449
+PROGRESS pair 500/1000 ok 500 qualified 472
+PROGRESS pair 525/1000 ok 525 qualified 497
+PROGRESS pair 550/1000 ok 550 qualified 522
+PROGRESS pair 575/1000 ok 575 qualified 547
+PROGRESS pair 600/1000 ok 600 qualified 572
+PROGRESS pair 625/1000 ok 625 qualified 597
+PROGRESS pair 650/1000 ok 650 qualified 622
+PROGRESS pair 675/1000 ok 675 qualified 647
+PROGRESS pair 700/1000 ok 700 qualified 672
+PROGRESS pair 725/1000 ok 725 qualified 697
+PROGRESS pair 750/1000 ok 750 qualified 722
+PROGRESS pair 775/1000 ok 775 qualified 747
+PROGRESS pair 800/1000 ok 800 qualified 772

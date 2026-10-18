@@ -1,0 +1,14 @@
+{"kind": "long", "i": 0, "order": "off-on", "chars": 407, "off_ms": 938.3, "on_ms": 996.3, "delta_ms": 58.0, "limit_ms": 140.7, "ok": true, "off_tokens": 134, "on_tokens": 134, "error": ""}
+{"kind": "long", "i": 1, "order": "on-off", "chars": 324, "off_ms": 1117.9, "on_ms": 1237.8, "delta_ms": 119.9, "limit_ms": 167.7, "ok": true, "off_tokens": 167, "on_tokens": 167, "error": ""}
+{"kind": "long", "i": 2, "order": "off-on", "chars": 506, "off_ms": 1177.6, "on_ms": 1174.1, "delta_ms": -3.4, "limit_ms": 176.6, "ok": true, "off_tokens": 158, "on_tokens": 158, "error": ""}
+{"kind": "long", "i": 3, "order": "on-off", "chars": 309, "off_ms": 1013.6, "on_ms": 1165.0, "delta_ms": 151.4, "limit_ms": 152.0, "ok": true, "off_tokens": 152, "on_tokens": 152, "error": ""}
+{"kind": "long", "i": 4, "order": "off-on", "chars": 360, "off_ms": 1519.4, "on_ms": 1504.5, "delta_ms": -14.9, "limit_ms": 227.9, "ok": true, "off_tokens": 225, "on_tokens": 225, "error": ""}
+{"kind": "long", "i": 5, "order": "on-off", "chars": 510, "off_ms": 1044.8, "on_ms": 1185.9, "delta_ms": 141.1, "limit_ms": 156.7, "ok": true, "off_tokens": 151, "on_tokens": 151, "error": ""}
+{"kind": "long", "i": 6, "order": "off-on", "chars": 508, "off_ms": 1118.6, "on_ms": 1105.0, "delta_ms": -13.6, "limit_ms": 167.8, "ok": true, "off_tokens": 152, "on_tokens": 152, "error": ""}
+{"kind": "long", "i": 7, "order": "on-off", "chars": 498, "off_ms": 1519.0, "on_ms": 1639.3, "delta_ms": 120.3, "limit_ms": 227.9, "ok": true, "off_tokens": 226, "on_tokens": 226, "error": ""}
+{"kind": "multi-tool", "i": 0, "order": "off-on", "chars": 24, "off_ms": 936.9, "on_ms": 894.8, "delta_ms": -42.1, "limit_ms": 140.5, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}
+{"kind": "multi-tool", "i": 1, "order": "on-off", "chars": 24, "off_ms": 857.6, "on_ms": 922.8, "delta_ms": 65.2, "limit_ms": 128.6, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}
+{"kind": "multi-tool", "i": 2, "order": "off-on", "chars": 24, "off_ms": 821.3, "on_ms": 938.3, "delta_ms": 117.0, "limit_ms": 123.2, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}
+{"kind": "multi-tool", "i": 3, "order": "on-off", "chars": 24, "off_ms": 830.6, "on_ms": 904.6, "delta_ms": 74.0, "limit_ms": 124.6, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}
+{"kind": "multi-tool", "i": 4, "order": "off-on", "chars": 24, "off_ms": 834.0, "on_ms": 906.8, "delta_ms": 72.9, "limit_ms": 125.1, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}
+{"kind": "multi-tool", "i": 5, "order": "on-off", "chars": 24, "off_ms": 840.5, "on_ms": 904.2, "delta_ms": 63.8, "limit_ms": 126.1, "ok": true, "off_tokens": 131, "on_tokens": 131, "error": ""}

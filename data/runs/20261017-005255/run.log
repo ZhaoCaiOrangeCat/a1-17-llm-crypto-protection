@@ -1,0 +1,11 @@
+crypto self-check
+ABORT CryptoError SM2_KAT
+Traceback (most recent call last):
+  File "C:\Users\zhaoc\Desktop\密码\tests\run_m1_m11.py", line 895, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\zhaoc\Desktop\密码\tests\run_m1_m11.py", line 337, in main
+    self_check()
+  File "C:\Users\zhaoc\Desktop\密码\src\common\crypto.py", line 168, in self_check
+    raise CryptoError("SM2_KAT")
+common.crypto.CryptoError: SM2_KAT

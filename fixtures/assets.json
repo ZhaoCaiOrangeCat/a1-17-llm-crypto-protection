@@ -1,0 +1,39 @@
+{
+  "note": "本地实验资产。指标运行只读取这些文件，不在运行时下载。",
+  "kb": {
+    "path": "fixtures/kb-corpus.jsonl",
+    "source": "https://raw.githubusercontent.com/ymcui/cmrc2018/master/squad-style-data/cmrc2018_trial.json",
+    "docs": 24,
+    "license": "CMRC 2018 trial passages, research use"
+  },
+  "tool": {
+    "path": "fixtures/tools/open-meteo-forecast.yml",
+    "manifest": "fixtures/tools/get_weather.json",
+    "source": "https://raw.githubusercontent.com/open-meteo/open-meteo/main/openapi/forecast.yml",
+    "provider": "Open-Meteo",
+    "forecast": "https://api.open-meteo.com/v1/forecast"
+  },
+  "prompts": "fixtures/prompts-1000.jsonl",
+  "files": [
+    {
+      "path": "fixtures/kb-corpus.jsonl",
+      "bytes": 34342,
+      "sha256": "3885f2434b78284becba61457df64f7158c9db7bf13c317cb8069dedd8fcaf2c"
+    },
+    {
+      "path": "fixtures/prompts-1000.jsonl",
+      "bytes": 151752,
+      "sha256": "d22682b5730ad460ec778eceb86ab6f49a8dc3c38ed2d8463540198ec97625b3"
+    },
+    {
+      "path": "fixtures/tools/open-meteo-forecast.yml",
+      "bytes": 137054,
+      "sha256": "512e29bca2afb06a088cc27fae5c6793a05e272c6404a67e3632cecb87f8516f"
+    },
+    {
+      "path": "fixtures/tools/get_weather.json",
+      "bytes": 713,
+      "sha256": "c22e2b4b625f505307289722de816819de068d656e212eb243480ef357e48ed2"
+    }
+  ]
+}

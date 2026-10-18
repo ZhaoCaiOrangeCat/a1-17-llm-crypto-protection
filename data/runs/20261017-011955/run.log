@@ -1,0 +1,125 @@
+crypto self-check
+llama already-up
+boot
+PASS E1 链路 temp=14.6 docs=['cmrc-0001'] leaked=False err=
+PASS E1 密文边界 forward_hit=False kb_bytes=971478
+PASS 细粒度授权 rotate=AUTHZ_DENY infer=AUTHZ_DENY audit=AUTHZ_DENY
+PASS 窃听与备份 wire=1724 backup_open=True backup_wrong=True
+PASS 工具实呼 10/10
+PASS M3 篡改 server=6/6 output=True tool=True
+PASS M4 重放 3/3
+warmup 20
+baseline_off 517.3
+PROGRESS pair 25/1000 ok 25 qualified 25
+PROGRESS pair 50/1000 ok 50 qualified 49
+PROGRESS pair 75/1000 ok 75 qualified 74
+PROGRESS pair 100/1000 ok 100 qualified 99
+PROGRESS pair 125/1000 ok 125 qualified 124
+PROGRESS pair 150/1000 ok 150 qualified 149
+PROGRESS pair 175/1000 ok 175 qualified 174
+PROGRESS pair 200/1000 ok 200 qualified 199
+PROGRESS pair 225/1000 ok 225 qualified 224
+PROGRESS pair 250/1000 ok 250 qualified 249
+PROGRESS pair 275/1000 ok 275 qualified 274
+PROGRESS pair 300/1000 ok 300 qualified 299
+PROGRESS pair 325/1000 ok 325 qualified 324
+PROGRESS pair 350/1000 ok 350 qualified 349
+PROGRESS pair 375/1000 ok 375 qualified 374
+PROGRESS pair 400/1000 ok 400 qualified 399
+PROGRESS pair 425/1000 ok 425 qualified 424
+PROGRESS pair 450/1000 ok 450 qualified 449
+PROGRESS pair 475/1000 ok 475 qualified 474
+PROGRESS pair 500/1000 ok 500 qualified 499
+PROGRESS pair 525/1000 ok 525 qualified 524
+PROGRESS pair 550/1000 ok 550 qualified 549
+PROGRESS pair 575/1000 ok 575 qualified 574
+PROGRESS pair 600/1000 ok 600 qualified 599
+PROGRESS pair 625/1000 ok 625 qualified 624
+PROGRESS pair 650/1000 ok 650 qualified 649
+PROGRESS pair 675/1000 ok 675 qualified 674
+PROGRESS pair 700/1000 ok 700 qualified 699
+PROGRESS pair 725/1000 ok 725 qualified 724
+PROGRESS pair 750/1000 ok 750 qualified 749
+PROGRESS pair 775/1000 ok 775 qualified 774
+PROGRESS pair 800/1000 ok 800 qualified 799
+PROGRESS pair 825/1000 ok 825 qualified 824
+PROGRESS pair 850/1000 ok 850 qualified 849
+PROGRESS pair 875/1000 ok 875 qualified 874
+PROGRESS pair 900/1000 ok 900 qualified 899
+PROGRESS pair 925/1000 ok 925 qualified 924
+PROGRESS pair 950/1000 ok 950 qualified 949
+PROGRESS pair 975/1000 ok 975 qualified 974
+PROGRESS pair 1000/1000 ok 1000 qualified 999
+PASS M1 请求数 1000
+PASS M2 保护成功 1000/1000
+PASS 知识库命中 990/1000
+PASS M5/M6 时延 999/1000 ratio=0.9990 head=[18.4, -33.4, -7.6, 4.6, -12.7, -36.3, 46.8, 9.2, -12.3, -36.4, -15.2, 1.1, -2.8, 19.2, 41.2, 2.9, -38.1, 29.3, -39.3, 0.8] max=83.1
+slot save
+slot chunk 10
+slot chunk 20
+slot chunk 30
+slot chunk 40
+slot chunk 50
+slot chunk 60
+slot chunk 70
+slot chunk 80
+slot chunk 90
+slot chunk 100
+slot chunk 110
+slot chunk 120
+slot chunk 130
+slot chunk 140
+slot chunk 150
+slot chunk 160
+slot chunk 170
+slot chunk 180
+slot chunk 190
+slot chunk 200
+slot chunk 210
+slot chunk 220
+PASS KV槽 bytes=57555304 chunks=220 restored=True
+PROGRESS rotate 20/100
+PROGRESS rotate 40/100
+PROGRESS rotate 60/100
+PROGRESS rotate 80/100
+PROGRESS rotate 100/100
+PASS M7 换钥次数 100
+PASS M8 换钥成功 100/100 active=1
+PASS M9 换钥中请求 204/204
+PASS E9 状态 decrypt_only=True retired_deny=True active_revoke=False recover=REVOKED_DENIED crash=137 kill_ver=101/101
+PASS E8 隔离 cache=True differ=True loaded=24/24 corrupt=True hidden=True temp=True/True cross=TAG_FAIL err=None
+REVOKE +1.0s AUTH_REVOKED
+REVOKE +3.0s AUTH_REVOKED
+REVOKE +5.0s AUTH_REVOKED
+REVOKE +7.0s AUTH_REVOKED
+REVOKE +9.0s AUTH_REVOKED
+REVOKE +11.0s AUTH_REVOKED
+REVOKE +13.0s AUTH_REVOKED
+REVOKE +15.0s AUTH_REVOKED
+REVOKE +17.0s AUTH_REVOKED
+REVOKE +19.0s AUTH_REVOKED
+REVOKE +21.0s AUTH_REVOKED
+REVOKE +23.0s AUTH_REVOKED
+REVOKE +25.0s AUTH_REVOKED
+REVOKE +27.0s AUTH_REVOKED
+REVOKE +29.0s AUTH_REVOKED
+REVOKE +31.0s AUTH_REVOKED
+REVOKE +33.0s AUTH_REVOKED
+REVOKE +35.0s AUTH_REVOKED
+REVOKE +37.0s AUTH_REVOKED
+REVOKE +39.0s AUTH_REVOKED
+REVOKE +41.0s AUTH_REVOKED
+REVOKE +43.0s AUTH_REVOKED
+REVOKE +45.0s AUTH_REVOKED
+REVOKE +47.0s AUTH_REVOKED
+REVOKE +49.0s AUTH_REVOKED
+REVOKE +51.0s AUTH_REVOKED
+REVOKE +53.0s AUTH_REVOKED
+REVOKE +55.0s AUTH_REVOKED
+REVOKE +57.0s AUTH_REVOKED
+REVOKE +58.1s AUTH_REVOKED
+PASS M10/M11 吊销 30/30 t0=1792172665.8927703
+PASS 吊销后新凭据 OK
+PASS 审计链 count=4980 checkpoints=49 missing=0
+RUN_DIR C:\Users\zhaoc\Desktop\密码\data\runs\20261017-011955
+ALL PASS []

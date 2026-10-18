@@ -1,0 +1,24 @@
+crypto self-check
+llama already-up
+boot
+PASS E1 链路 temp=14.4 docs=['cmrc-0001'] leaked=False err=
+PASS E1 密文边界 forward_hit=False kb_bytes=971478
+PASS 细粒度授权 rotate=AUTHZ_DENY infer=AUTHZ_DENY audit=AUTHZ_DENY
+PASS 窃听与备份 wire=1724 backup_open=True backup_wrong=True
+PASS 工具实呼 1/1
+PASS M3 篡改 server=6/6 output=True tool=True
+PASS M4 重放 3/3
+warmup 4
+PAIR 4 1164.9 301.6 llama 1134.57 1355.98 tok 64 64
+PAIR 5 1135.0 253.8 llama 1119.13 1320.76 tok 64 64
+PAIR 6 1203.9 256.8 llama 1166.69 1398.13 tok 64 64
+PAIR 21 943.4 197.9 llama 914.0 1077.81 tok 64 64
+PAIR 23 1202.6 181.5 llama 1190.37 1319.15 tok 64 64
+PROGRESS pair 25/30 ok 25 qualified 20
+PAIR 25 1584.1 315.6 llama 1553.32 1812.5 tok 64 64
+PAIR 28 1171.7 398.6 llama 1142.72 1481.9 tok 64 64
+PASS M1 请求数 30
+PASS M2 保护成功 30/30
+PASS 知识库命中 30/30
+FAIL M5/M6 时延 23/30 ratio=0.7667 head=[47.6, 148.7, 103.6, -21.3, 301.6, 253.8, 256.8, -293.9, -111.0, -178.3, 98.9, 118.7, -119.2, 194.1, 114.1, -77.1, 110.5, 188.5, 71.1, 85.8] max=398.6
+slot save

@@ -1,0 +1,5 @@
+{"name": "伪造私钥登录", "ok": true, "detail": "AUTH_BAD_SIG", "t": 1792224194.7807624}
+{"name": "伪造令牌签名", "ok": true, "detail": "AUTH_BAD_SIG", "t": 1792224194.8010058}
+{"name": "篡改已缓存令牌声明", "ok": true, "detail": "AUTH_BAD_SIG", "t": 1792224194.8240862}
+{"name": "对象类型与槽位不符", "ok": true, "detail": "AUTHZ_DENY", "t": 1792224194.863594}
+{"name": "嗅探报文", "ok": true, "detail": "wire=1684 forward_hit=False err=", "t": 1792224198.7420206}

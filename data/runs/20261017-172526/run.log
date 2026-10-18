@@ -1,0 +1,18 @@
+crypto self-check
+llama already-up
+boot
+PASS E1 链路 temp=15.9 docs=['cmrc-0001'] leaked=False err=
+PASS E1 密文边界 forward_hit=False kb_bytes=971478
+PASS 细粒度授权 rotate=AUTHZ_DENY infer=AUTHZ_DENY audit=AUTHZ_DENY
+PASS 窃听与备份 wire=1744 backup_open=True backup_wrong=True
+PASS 工具实呼 10/10
+PASS M3 篡改 server=6/6 output=True tool=True
+PASS M4 重放 3/3
+warmup 20
+baseline_off 503.0
+PROGRESS pair 25/1000 ok 25 qualified 13
+PROGRESS pair 50/1000 ok 50 qualified 26
+PROGRESS pair 75/1000 ok 75 qualified 40
+PROGRESS pair 100/1000 ok 100 qualified 53
+STOP latency 53/100
+FAILED ['M5/M6 early']

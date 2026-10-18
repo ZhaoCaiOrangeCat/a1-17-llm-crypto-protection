@@ -1,0 +1,5 @@
+{"op_id": "rot-0", "t_commit": 1792167249.6584482, "tenant_id": "tenant-a", "old_ver": 1, "new_ver": 2, "state_ok": true, "inflight_ok": 16, "inflight_total": 16}
+{"op_id": "rot-1", "t_commit": 1792167249.664944, "tenant_id": "tenant-a", "old_ver": 2, "new_ver": 3, "state_ok": true, "inflight_ok": 16, "inflight_total": 16}
+{"op_id": "rot-2", "t_commit": 1792167249.670953, "tenant_id": "tenant-a", "old_ver": 3, "new_ver": 4, "state_ok": true, "inflight_ok": 16, "inflight_total": 16}
+{"op_id": "rot-3", "t_commit": 1792167249.6774595, "tenant_id": "tenant-a", "old_ver": 4, "new_ver": 5, "state_ok": true, "inflight_ok": 16, "inflight_total": 16}
+{"op_id": "rot-4", "t_commit": 1792167249.683465, "tenant_id": "tenant-a", "old_ver": 5, "new_ver": 6, "state_ok": true, "inflight_ok": 16, "inflight_total": 16}

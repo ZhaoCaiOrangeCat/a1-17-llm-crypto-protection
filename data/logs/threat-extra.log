@@ -1,0 +1,9 @@
+# 威胁补充检测
+
+- PASS 伪造私钥登录: AUTH_BAD_SIG
+- PASS 伪造令牌签名: AUTH_BAD_SIG
+- PASS 篡改已缓存令牌声明: AUTH_BAD_SIG
+- PASS 对象类型与槽位不符: AUTHZ_DENY
+- PASS 嗅探报文: wire=1684 forward_hit=False err=
+
+进程内存中的明文不在检测范围内。

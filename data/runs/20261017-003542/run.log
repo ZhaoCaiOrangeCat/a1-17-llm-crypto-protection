@@ -1,0 +1,12 @@
+crypto self-check
+llama already-up
+boot
+PASS E1 链路 temp=14.4 docs=['cmrc-0001'] leaked=False err=
+PASS E1 密文边界 forward_hit=False kb_bytes=971478
+PASS 细粒度授权 rotate=AUTHZ_DENY infer=AUTHZ_DENY audit=AUTHZ_DENY
+PASS 窃听与备份 wire=1724 backup_open=True backup_wrong=True
+PASS 工具实呼 1/1
+PASS M3 篡改 server=6/6 output=True tool=True
+PASS M4 重放 3/3
+warmup 4
+PAIR 3 1234.0 645.0 llama 1221.03 1805.93

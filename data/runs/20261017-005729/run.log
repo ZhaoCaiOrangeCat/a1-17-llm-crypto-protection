@@ -1,0 +1,17 @@
+crypto self-check
+llama already-up
+boot
+ABORT RuntimeError ASSET fixtures/tools/get_weather.json
+Traceback (most recent call last):
+  File "C:\Users\zhaoc\Desktop\密码\tests\run_m1_m11.py", line 899, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\zhaoc\Desktop\密码\tests\run_m1_m11.py", line 296, in main
+    env = boot(str(ROOT), f"http://127.0.0.1:{LLAMA_PORT}/v1/chat/completions", MODEL)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zhaoc\Desktop\密码\src\runtime.py", line 17, in boot
+    manifest = verify_assets(root)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zhaoc\Desktop\密码\src\common\assets.py", line 15, in verify_assets
+    raise RuntimeError(f"ASSET {item['path']}")
+RuntimeError: ASSET fixtures/tools/get_weather.json

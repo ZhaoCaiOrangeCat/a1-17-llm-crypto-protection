@@ -1,0 +1,15 @@
+{
+  "name": "get_weather",
+  "provider": "Open-Meteo",
+  "spec_file": "fixtures/tools/open-meteo-forecast.yml",
+  "spec_source": "https://raw.githubusercontent.com/open-meteo/open-meteo/main/openapi/forecast.yml",
+  "geocoding": "https://geocoding-api.open-meteo.com/v1/search",
+  "forecast_base_from_spec": "https://api.open-meteo.com",
+  "docs": "https://open-meteo.com/en/docs",
+  "auth": "apikey is defined for commercial subscriptions and is not used on the free endpoint",
+  "parameters": {
+    "latitude": "WGS84, from the OpenAPI forecast operation",
+    "longitude": "WGS84, from the OpenAPI forecast operation",
+    "city": "optional name resolved by the Open-Meteo geocoding API before forecast"
+  }
+}
